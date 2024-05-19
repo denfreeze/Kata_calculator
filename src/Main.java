@@ -24,11 +24,15 @@ public class Main {
         int a;
         int b;
 
+        if(scanner.hasNext()) {
+            throw new Exception("Превышение количества входных значений");
+        }
+
         if(RomanCalc.isRoman(first) && RomanCalc.isRoman(second)){
             a = RomanCalc.convertToArabian(first);
             b = RomanCalc.convertToArabian(second);
             isRoman = true;
-        } else if (!RomanCalc.isRoman(first) && !RomanCalc.isRoman(second)) {
+        } else if(!RomanCalc.isRoman(first) && !RomanCalc.isRoman(second)) {
             a = Integer.parseInt(first);
             b = Integer.parseInt(second);
             isRoman = false;
@@ -37,12 +41,13 @@ public class Main {
             throw new Exception("Разный формат чисел");
         }
 
-        if (a > 10 || b > 10) {
+        if(a > 10 || b > 10) {
             throw new Exception("Одно из значений больше 10");
         }
 
+
         int result;
-        switch (operator) {
+        switch(operator) {
             case "+":
                 result = a + b;
                 break;
@@ -62,7 +67,7 @@ public class Main {
                 throw new Exception("Неизвестный оператор");
         }
         if(isRoman) {
-            if (result <= 0) {
+            if(result <= 0) {
                 throw new Exception("Результат в римских цифрах не может быть меньше или равен нулю");
             }
             return RomanCalc.convertToRoman(result);
@@ -83,16 +88,16 @@ public class Main {
                 "XCVIII", "XCIX", "C"};
 
         public static boolean isRoman(String res) {
-            for (int i = 0; i < numerals.length; i++) {
-                if (res.equals(numerals[i])) {
+            for(int i = 0; i < numerals.length; i++) {
+                if(res.equals(numerals[i])) {
                     return true;
                 }
             }
             return false;
         }
         public static int convertToArabian(String roman) {
-            for (int i = 0; i < numerals.length; i++) {
-                if (roman.equals(numerals[i])) {
+            for(int i = 0; i < numerals.length; i++) {
+                if(roman.equals(numerals[i])) {
                     return i;
                 }
             }
