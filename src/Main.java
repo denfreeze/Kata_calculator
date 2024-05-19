@@ -24,9 +24,6 @@ public class Main {
         int a;
         int b;
 
-        if(scanner.hasNext()) {
-            throw new Exception("Превышение количества входных значений");
-        }
 
         if(RomanCalc.isRoman(first) && RomanCalc.isRoman(second)){
             a = RomanCalc.convertToArabian(first);
