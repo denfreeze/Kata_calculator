@@ -1,16 +1,17 @@
 
-	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(¼Ğ­¼şÿÿÿÿ8à´ğö1J$9d23e5a8-de68-49e6-bd31-9189f19ed39d
-ˆ	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(‡œÖâ8à´ğö1J$5aa67480-9f51-4149-b7bf-8acea59fc494
-	java:S1129"FDefine and throw a dedicated exception instead of using a generic one.(´®ÇÀùÿÿÿÿ8à´ğö1J$030fdd60-26ab-44a5-8017-d01390096212
-	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(û—Èüÿÿÿÿ8à´ğö1J$9e540902-7add-49e9-9f81-d046d33df563
-ˆ	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(Ô¿±Ë8à´ğö1J$db94054d-efd5-4c7e-b533-0474e0117f3e
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(â­Àøÿÿÿÿ8ÒÊçğö1
+	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(¼Ğ­¼şÿÿÿÿ8à´ğö1J$ec67e27d-9c13-4d5f-9e61-309399556b41
+ˆ	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(‡œÖâ8à´ğö1J$78c82598-6c18-41b4-b4bc-9494ab2f1d4d
+ˆ	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(“³¥Û8à´ğö1J$000b6917-913e-4d46-97ff-e9542b2c504f
+	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(´®ÇÀùÿÿÿÿ8à´ğö1J$a01e4fb3-a665-47de-8bf6-cfdd40439c0b
+	java:S112C"FDefine and throw a dedicated exception instead of using a generic one.(û—Èüÿÿÿÿ8à´ğö1J$2752ce74-7a39-4ce9-a260-fa077a5fdcf7
+ˆ	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(Ô¿±Ë8ÒÊçğö1J$21a7ac2a-625b-4587-afd8-2c80e40b1b32
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(â­Àøÿÿÿÿ8½’ùù1J$61779d28-44f7-472a-b25c-02ff954c1cec
 ]
-java:S1220""Move this file to a named package.8â´ğö1J$5e19a385-fd85-467f-9e01-f8a67f9af9a0
+java:S1220""Move this file to a named package.8â´ğö1J$fe5c6322-c29b-41a3-b8ad-b38fd742fa96
 
-java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¼Ê…ÿÿÿÿÿ8š´ğö1J$a78db474-9df0-4e66-b595-501cd1dd9c20
-r	java:S106"+Replace this use of System.out by a logger.(µ‹’·øÿÿÿÿ8Ÿ´ğö1J$3386b4dd-d5f1-4215-9712-403e76852b5f
-r	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8 ´ğö1J$f078798d-f8bb-498f-935a-28a92f5370b1
-l	java:S106"+Replace this use of System.out by a logger.(°ƒL8 ´ğö1J$aa634a3a-72c4-439b-adf7-765dbb207b4b
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(¼Ê…ÿÿÿÿÿ8š´ğö1J$833dea72-3a60-4f0c-ac37-2d9ab88eda4e
+r	java:S106"+Replace this use of System.out by a logger.(µ‹’·øÿÿÿÿ8Ÿ´ğö1J$b7afa34e-6c03-4bc3-990a-638466612f71
+r	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8 ´ğö1J$bae7c12d-73a6-44ec-b318-1d8fd15a84b7
+l	java:S106"+Replace this use of System.out by a logger.(°ƒL8 ´ğö1J$e181153d-80fe-4fe6-8da8-286f53734a2c
 }
-java:S1118J":Add a private constructor to hide the implicit public one.(öÈÜ³8¦´ğö1J$8b860e52-1a2a-44ea-b09b-02c38524c1b0
+java:S1118O":Add a private constructor to hide the implicit public one.(öÈÜ³8¦´ğö1J$5f358ebd-0538-4ce6-a074-c13ffbb185cf

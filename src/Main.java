@@ -41,7 +41,10 @@ public class Main {
         if(a > 10 || b > 10) {
             throw new Exception("Одно из значений больше 10");
         }
-
+        
+        if(scanner.hasNext()) {
+            throw new Exception("Превышение количества входных значений");
+        }
 
         int result;
         switch(operator) {
